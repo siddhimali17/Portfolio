@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Name | Portfolio</title>
+  <meta
+    name="description"
+    content="A modern single-page portfolio for showcasing projects, skills, experience, and contact details."
+  >
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Manrope:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  >
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="brand" href="#home">
+          <span class="brand-mark"></span>
+          <span id="brandName">Your Name</span>
+        </a>
+
+        <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="siteNav">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav class="site-nav" id="siteNav">
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#skills">Skills</a>
+          <a href="#experience">Experience</a>
+          <a href="#resume">Resume</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="home">
+      <section class="hero section">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow" id="heroEyebrow">Portfolio</p>
+            <h1 id="heroTitle">Hello, I'm Your Name</h1>
+            <p class="hero-role" id="heroRole">Your role goes here</p>
+            <p class="hero-description" id="heroDescription"></p>
+
+            <div class="hero-actions">
+              <a class="button button-primary" href="#projects">View My Work</a>
+              <a class="button button-secondary" href="#contact">Get In Touch</a>
+            </div>
+
+            <div class="hero-socials" id="heroSocials"></div>
+          </div>
+
+          <aside class="hero-card">
+            <div class="hero-card-glow"></div>
+            <p class="hero-card-label">Quick Snapshot</p>
+            <div class="hero-highlights" id="heroHighlights"></div>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section" id="about">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">About Me</p>
+            <h2>Who I Am</h2>
+          </div>
+          <div class="about-grid">
+            <div class="about-copy" id="aboutText"></div>
+            <div class="about-pills" id="aboutPills"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="projects">
+        <div class="container">
+          <div class="section-heading section-heading-row">
+            <div>
+              <p class="eyebrow">Featured Projects</p>
+              <h2>Things I've Built</h2>
+            </div>
+            <div class="project-filters" id="projectFilters"></div>
+          </div>
+
+          <div class="projects-grid" id="projectsGrid"></div>
+        </div>
+      </section>
+
+      <section class="section" id="skills">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Skills &amp; Technologies</p>
+            <h2>Tools I Use</h2>
+          </div>
+          <div class="skills-grid" id="skillsGrid"></div>
+        </div>
+      </section>
+
+      <section class="section" id="experience">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Experience</p>
+            <h2>What I've Worked On</h2>
+          </div>
+          <div class="timeline" id="experienceTimeline"></div>
+        </div>
+      </section>
+
+      <section class="section" id="resume">
+        <div class="container">
+          <div class="resume-card">
+            <div>
+              <p class="eyebrow">Resume</p>
+              <h2 id="resumeTitle">My Resume</h2>
+              <p id="resumeDescription"></p>
+            </div>
+            <div class="resume-actions">
+              <a class="button button-primary" id="resumeDownload" href="#" target="_blank" rel="noreferrer">Download CV</a>
+              <a class="button button-secondary" id="resumePreview" href="#" target="_blank" rel="noreferrer">View Full CV</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="contact">
+        <div class="container contact-grid">
+          <div>
+            <div class="section-heading">
+              <p class="eyebrow">Let's Work Together</p>
+              <h2>Reach Out Anytime</h2>
+            </div>
+            <p class="contact-copy" id="contactIntro"></p>
+            <div class="contact-list" id="contactList"></div>
+          </div>
+
+          <form class="contact-form" id="contactForm">
+            <label>
+              <span>Name</span>
+              <input type="text" id="name" name="name" placeholder="Your name" required>
+            </label>
+            <label>
+              <span>Email</span>
+              <input type="email" id="email" name="email" placeholder="your@email.com" required>
+            </label>
+            <label>
+              <span>Subject</span>
+              <input type="text" id="subject" name="subject" placeholder="Project inquiry" required>
+            </label>
+            <label>
+              <span>Message</span>
+              <textarea id="message" name="message" rows="5" placeholder="Tell me a little about your idea..." required></textarea>
+            </label>
+            <button type="submit" class="button button-primary">Send Message</button>
+            <p class="form-note" id="formNote">This form opens your email app with the message pre-filled.</p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-wrap">
+        <p id="footerText">(c) 2026 Your Name. All rights reserved.</p>
+        <a href="#home" class="back-to-top">Back to top</a>
+      </div>
+    </footer>
+  </div>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
