@@ -1,0 +1,167 @@
+{
+  "site": {
+    "title": "Siddhi Mali | Portfolio",
+    "brandName": "Siddhi Mali",
+    "footerText": "© 2026 Siddhi Mali. All rights reserved."
+  },
+
+  "hero": {
+    "eyebrow": "Portfolio",
+    "title": "Hello, I'm Siddhi Mali",
+    "role": "Computer Science Student",
+    "description": "I am a passionate student developer who loves building practical applications. Currently working on projects like FreshCheck to solve real-world problems. I enjoy learning new technologies and creating modern web and mobile apps.",
+
+    "highlights": [
+      {
+        "value": "FreshCheck",
+        "label": "Built an app focused on food expiry tracking and reducing waste"
+      },
+      {
+        "value": "Java",
+        "label": "Strong foundation in programming and object-oriented concepts"
+      },
+      {
+        "value": "Web Dev",
+        "label": "Actively learning and building modern web experiences"
+      }
+    ],
+
+    "socials": [
+      {
+        "label": "GitHub",
+        "value": "https://github.com/siddhimali17",
+        "url": "https://github.com/siddhimali17"
+      },
+      {
+        "label": "LinkedIn",
+        "value": "https://www.linkedin.com/in/siddhi-mali-aba333335/",
+        "url": "https://www.linkedin.com/in/siddhi-mali-aba333335/"
+      },
+      {
+        "label": "Email",
+        "value": "2403049@ritindia.edu",
+        "url": "mailto:2403049@ritindia.edu"
+      }
+    ]
+  },
+
+  "about": {
+    "paragraphs": [
+      "I am a Computer Science student with a strong interest in software development and problem solving. I enjoy turning ideas into real working applications.",
+      "I have built projects like FreshCheck, which helps users track food expiry dates and reduce waste. I like working on projects that have real-life impact.",
+      "I am continuously learning technologies like Java, web development, and app development using tools like MIT App Inventor.",
+      "My goal is to become a skilled developer and contribute to innovative tech solutions in the future."
+    ],
+
+    "pills": [
+      "Java",
+      "Web Development",
+      "App Development",
+      "Problem Solving",
+      "UI Design",
+      "Student Developer"
+    ]
+  },
+
+  "projects": [
+    {
+      "title": "FreshCheck",
+      "category": "App / Software",
+      "description": "A mobile app that helps users track expiration dates of food products and reduce food waste.",
+      "tags": ["MIT App Inventor", "Database", "UI Design"],
+      "image": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085",
+      "links": [
+        {
+          "label": "Live",
+          "url": "#"
+        }
+      ]
+    },
+    {
+      "title": "Portfolio Website",
+      "category": "Web",
+      "description": "A personal portfolio website showcasing my skills, projects, and contact details.",
+      "tags": ["HTML", "CSS", "JavaScript"],
+      "image": "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d",
+      "links": [
+        {
+          "label": "Live",
+          "url": "#"
+        }
+      ]
+    },
+    {
+      "title": "Java Payment System",
+      "category": "Software",
+      "description": "A Java-based application demonstrating OOP concepts like abstraction, interfaces, and polymorphism.",
+      "tags": ["Java"],
+      "image": "https://images.unsplash.com/photo-1555949963-aa79dcee981c",
+      "links": []
+    }
+  ],
+
+  "skills": [
+    {
+      "title": "Programming Languages",
+      "items": ["Java", "HTML", "CSS", "JavaScript"]
+    },
+    {
+      "title": "Frameworks",
+      "items": ["Basic Web Development"]
+    },
+    {
+      "title": "Embedded",
+      "items": ["Basic Concepts"]
+    },
+    {
+      "title": "Tools",
+      "items": ["MIT App Inventor", "VS Code", "Git (learning)"]
+    }
+  ],
+
+  "experience": [
+    {
+      "role": "Student Developer",
+      "company": "Self Projects",
+      "duration": "2024 - Present",
+      "location": "India",
+      "description": "Working on academic and personal projects to improve development skills and gain hands-on experience.",
+      "highlights": [
+        "Developed FreshCheck app",
+        "Built portfolio website",
+        "Practiced Java OOP concepts"
+      ],
+      "tags": ["Java", "HTML", "CSS", "JavaScript"]
+    }
+  ],
+
+  "resume": {
+    "title": "Siddhi Mali Resume",
+    "description": "Download my resume to learn more about my education, skills, and projects.",
+    "downloadUrl": "file:///C:/Users/siddh/AppData/Local/Packages/5319275A.WhatsAppDesktop_cv1g1gvanyjgm/LocalState/sessions/CAEFBC263B03421CD6D87991FD636814D4E6FB4D/transfers/2026-16/Resume1%20(1).pdf",
+    "previewUrl": "file:///C:/Users/siddh/AppData/Local/Packages/5319275A.WhatsAppDesktop_cv1g1gvanyjgm/LocalState/sessions/CAEFBC263B03421CD6D87991FD636814D4E6FB4D/transfers/2026-16/Resume1%20(1).pdf"
+  },
+
+  "contact": {
+    "intro": "Feel free to reach out to me for collaboration, projects, or any opportunities. I would love to connect and learn together!",
+    "email": "2403049@ritindia.edu",
+
+    "items": [
+      {
+        "label": "Email",
+        "value": "2403049@ritindia.edu",
+        "url": "mailto:2403049@ritindia.edu"
+      },
+      {
+        "label": "LinkedIn",
+        "value": "https://www.linkedin.com/in/siddhi-mali-aba333335/",
+        "url": "https://www.linkedin.com/in/siddhi-mali-aba333335/"
+      },
+      {
+        "label": "GitHub",
+        "value": "https://github.com/siddhimali17",
+        "url": "https://github.com/siddhimali17"
+      }
+    ]
+  }
+}
